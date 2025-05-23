@@ -1,0 +1,8 @@
+@ChampionsApi_HostAddress = https://localhost:7151
+
+POST {{ChampionsApi_HostAddress}}/graphql
+Content-Type: application/json
+
+{
+  "query": "query { players { name, team } }"
+}
